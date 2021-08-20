@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landio - Sass Landing Page </title>
+        <!--====== Bootstrap ======-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--====== Font Awesome ======-->
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+        <!--====== Flaticon ======-->
+        <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
+        <!--====== Animate CSS ======-->
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+        <!--====== Slick Slider ======-->
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <!--====== Nice Select  ======-->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!--====== Default css ======-->
+        <link rel="stylesheet" href="assets/css/default.css">
+        <!--====== Main Stylesheet ======-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--====== Responsive Stylesheet ======-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <!-- Place favicon in the root directory -->
+        <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    </head>
+    <body>
+        <!--======= Start Preloader =======-->
+        <div class="preloader">
+            <img src="assets/img/preloader.gif" alt="preloader"/>
+        </div> <!-- /.preloader -->
+        <!--======= End Preloader =======-->
+        <!--====== Start Search From ======-->
+        <div class="modal fade" id="search-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form>
+                        <div class="form_group">
+                            <input type="text" class="form_control" placeholder="Search here...">
+                            <button class="search_btn"><i class="fa fa-search"></i></button>
+                        </div>
+                    </form>
+                </div> <!-- /.modal-content -->
+            </div> <!-- /.modal-dialog -->
+        </div><!-- /#search-modal -->
+        <!--====== End Search From ======-->
+        <!--====== Start Header Area ======-->
+        <header class="header-area header-v1">
+            <div class="header-navigation">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <!-- Brand Logo and Language Selection Dropdown -->
+                        <div class="col-xl-3 col-lg-4 col-md-5 col-8">
+                            <div class="site-branding-and-language-selection">
+                                <div class="brand-logo">
+                                    <a href="index.html">
+                                        <h2>AirUTM</h2>
+                                        <!-- <img src="assets/img/logo-royal-blue.png" alt="logo"> -->
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Desktop and Mobile Menu -->
+                        <div class="col-xl-6 col-lg-3 col-md-1 col-2 text-center">
+                            <div class="primary-menu">
+                                <div class="nav-menu">
+                                    <!-- Navbar Close Icon -->
+                                    <div class="navbar-close">
+                                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                                    </div>
+                                    <nav class="main-menu">
+                                        <ul>
+                                            <li class="menu-item">
+                                                <a href="index.html" class="nav-link active">Home</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="about.html" class="nav-link">About Us</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="services.html" class="nav-link">Services</a>
+                                            </li>
+                                             
+                                            <li class="menu-item menu-item-has-children">
+                                                <a href="contact.html" class="nav-link">Contact</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="investors.html" class="nav-link">Investors</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Menu Right -->
+                        <div class="col-xl-3 col-lg-5 col-md-6 col-2">
+                            <div class="header-right">
+                                <ul>
+                                    <li class="get-started-wrapper">
+                                        <a href="services.html" class="filled-btn">
+                                            Get Started <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="menu-toggle">
+                                            <div class="menu-overlay"></div>
+                                            <!-- Navbar Toggler -->
+                                            <div class="nav-toggle">
+                                                <div class="navbar-toggler float-end">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- /.row -->
+                </div> <!-- /.container-fluid -->
+            </div> <!-- /.header-navigation -->
+        </header> <!-- /.header-area -->
+        <!--====== End Header Area ======-->
+        <!--====== Start Hero Area ======-->
+        <section class="hero-area hero-v1" style="background-image: url(assets/img/hero/app-overview-main-bg.png);">
+            <div class="container">
+                <div class="hero-internal">
+                    <div class="section-particle-effect d-none d-md-block">
+                        <img class="particle-1 animate-zoom-fade" src="assets/img/particle/particle-1.png" alt="particle One">
+                        <img class="particle-2 animate-float-bob-y" src="assets/img/particle/particle-2.png" alt="particle Two">
+                        <img class="particle-3 animate-zoominout" src="assets/img/particle/particle-3.png" alt="particle Three">
+                        <img class="particle-4 animate-zoominout" src="assets/img/particle/particle-4.png" alt="particle Four">
+                        <img class="particle-5 animate-zoominout" src="assets/img/particle/particle-5.png" alt="particle Five">
+                        <img class="particle-6 animate-zoom-fade" src="assets/img/particle/particle-6.png" alt="particle Six">
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 col-xl-11">
+                            <div class="hero-content">
+                                <div class="section-title">
+                                    
+                                    <h1 class="wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">Navigate the Skies with<span>UTM</span> </h1>
+                                    <div class="section-heading-tag wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">
+                                        <span class="single-heading-tag">Unmanned Aircraft System Traffic Management</span>
+                                    </div>
+                                    <div class="section-button-wrapper justify-content-center section-dual-button wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1500ms">
+                                        <a href="services.html" class="filled-btn">
+                                            Services <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                        <a href="#learn" class="filled-btn btn-bordered">
+                                            Learn More <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> <!-- /.hero-content -->
+                        </div> <!-- /.col-lg-10 -->
+                    </div> <!-- /.row -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="app-dashboard-preview animate-float-bob-y">
+                                <img src="assets/img/app/utm-dashboard.png" alt="app dashboard overview">
+                            </div>
+                        </div>
+                    </div> <!-- /.row -->
+                </div> <!-- /.section-internal -->
+            </div> <!-- /.container-->
+        </section> <!-- /.hero-area -->
+        <!--====== End Hero Area ======-->
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <!--====== Start Data Analysis Area ======-->
+        <section class="data-analysis-feature-area pb-130">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_9xrenieu.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="data-analysis-content">
+                            <div class="section-title">
+                                <div class="section-heading-tag">
+                                    <span class="single-heading-tag">Know Us Better</span>
+                                </div>
+                                <h2>Our Story</h2>
+                                <div class="section-title-description">
+                                    <p>We are an aviation technology startup by a group of friends who wanted to build something beyond their imagination. We are now comprised of a talented team of researchers, engineers, students, designers and drone enthusiasts tied together by a passion for aviation. We are dedicated to finding innovative solutions to the problems in the airspace.</p>
+                                </div>
+                            </div>
+                            <div class="section-button-wrapper mt-35">
+                                <a href="about.html" class="filled-btn btn-bordered bg-royal-blue">
+                                    Learn More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </section> <!-- /.data-analysis-feature-area -->
+        <!--====== End Data Analysis Area ======-->
+        <!--====== Start FAQ Area ======-->
+        <section id=learn class="faq-area bg-white-lilac pt-5 pb-5">
+            <div class="container">
+                <div class="section-internal">
+                    <div class="section-particle-effect d-none d-md-block section-particle-effect-v2">
+                        <img class="particle-1 animate-zoom-fade" src="assets/img/particle/particle-1.png" alt="particle One">
+                        <img class="particle-2 animate-rotate-me" src="assets/img/particle/particle-2.png" alt="particle Two">
+                        <img class="particle-3 animate-float-bob-x" src="assets/img/particle/particle-3.png" alt="particle Three">
+                        <img class="particle-4 animate-zoominout" src="assets/img/particle/particle-4.png" alt="particle Four">
+                        <img class="particle-5 animate-zoominout" src="assets/img/particle/particle-5.png" alt="particle Five">
+                        <img class="particle-7 animate-float-bob-x" src="assets/img/particle/particle-7.png" alt="particle Seven">
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="faq-content content-right-spacer">
+                                <div class="section-title mb-45">
+                                    <div class="section-heading-tag">
+                                        <span class="single-heading-tag">Let's Get Started</span>
+                                    </div>
+                                    <h2>Take Off To <br/> a BETTER WORLD</h2>
+                                </div>
+                                <div class="section-accordion">
+                                    <div class="accordion" id="accordionFAQ">
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                    What is UTM?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionFAQ">
+                                                <div class="accordion-body">
+                                                    <p>UTM or Unmanned Traffic Management is a system to automate the navigation and control of drones in the air.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingTwo">
+                                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                    How does UTM work?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionFAQ">
+                                                <div class="accordion-body">
+                                                    <p>UTM safely integrates drones and other unmanned aerial systems (UAS) into the airspace as efficiently as possible and ensures the smooth functioning of all the operations which are autonomously controlled.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingThree">
+                                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    How does it help?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionFAQ">
+                                                <div class="accordion-body">
+                                                    <p>Drones can be used for missions beyond the visual line of sight (BVLOS) by employing UTM to safely navigate its route.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h5 class="accordion-header" id="headingThree">
+                                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    Why do we need UTM?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionFAQ">
+                                                <div class="accordion-body">
+                                                    <p>Drones can be used for missions beyond the visual line of sight (BVLOS) by employing UTM to safely navigate its route.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div> <!-- /.accordion -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_5kv8btym.json"  background="transparent"  speed="1.5"   loop  autoplay></lottie-player>
+                        </div>
+                    </div> <!-- /.row -->
+                </div> <!-- /.section-internal -->
+            </div> <!-- /.container -->
+        </section> <!-- /.faq-area -->
+        <!--====== End FAQ Area ======-->
+        <!--====== Start Our Services Area ======-->
+        <section class="our-services bg-dark-black pt-129 pb-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <div class="section-title section-title-white text-center mb-65">
+                            <div class="section-heading-tag">
+                                <span class="single-heading-tag bg-royal-blue">What We Do</span>
+                            </div>
+                            <h2>We offer smart saas solutions <br class="d-none d-md-block"> for your flight missions</h2>
+                        </div>
+                    </div> 
+                </div>
+                <div class="our-services-content-wrapper">
+                    <div class="row">
+                        <!-- Single Feature Box -->
+                        <div class="col-md-6">
+                            <div class="single-feature-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div class="feature-box-icon">
+                                    <img src="assets/img/feature/service-icon-1.png" alt="service icon one">
+                                </div>
+                                <div class="feature-box-content">
+                                    <h4>Conflict Management System</h4>
+                                    <p>AirUTM is a method that can integrate human intellect with automation to reduce the chances of airborne conflicts.</p>
+                                </div>
+                            </div> 
+                        </div> 
+                        <!-- Single Feature Box -->
+                        <div class="col-md-6">
+                            <div class="single-feature-box wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                <div class="feature-box-icon">
+                                    <img src="assets/img/feature/service-icon-2.png" alt="service icon one">
+                                </div>
+                                <div class="feature-box-content">
+                                    <h4>Path Planning</h4>
+                                    <p>It ensures that the path of the aircraft is designed in the most shielded way possible.</p>
+                                </div>
+                            </div> 
+                        </div> 
+                        <!-- Single Feature Box -->
+                        <div class="col-md-6">
+                            <div class="single-feature-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <div class="feature-box-icon">
+                                    <img src="assets/img/feature/service-icon-3.png" alt="service icon one">
+                                </div>
+                                <div class="feature-box-content">
+                                    <h4>Geofencing</h4>
+                                    <p>It ensures that all real-time location-based information pertaining to the aircraft is notified to the pilot.</p>
+                                </div>
+                            </div> 
+                        </div>
+                        <!-- Single Feature Box -->
+                        <div class="col-md-6">
+                            <div class="single-feature-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                <div class="feature-box-icon">
+                                    <img src="assets/img/feature/service-icon-4.png" alt="service icon one">
+                                </div>
+                                <div class="feature-box-content">
+                                    <h4>Interoperability</h4>
+                                    <p>It uses communication between aircrafts and UTM service providers for optimum safety.</p>
+                                </div>
+                            </div> 
+                        </div> 
+                        <!-- Single Feature Box -->
+                        <div class="col-md-6">
+                            <div class="single-feature-box wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                <div class="feature-box-icon">
+                                    <img src="assets/img/feature/service-icon-5.png" alt="service icon one">
+                                </div>
+                                <div class="feature-box-content">
+                                    <h4>Identity & Authentication</h4>
+                                    <p>It ensures drone registration, pilot registration and issue tokens to exchange credentials and permissions.</p>
+                                </div>
+                            </div> 
+                        </div> 
+                        <!-- Single Feature Box -->
+                        <div class="col-md-6">
+                            <div class="single-feature-box wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
+                                <div class="feature-box-icon">
+                                    <img src="assets/img/feature/service-icon-6.png" alt="service icon one">
+                                </div>
+                                <div class="feature-box-content">
+                                    <h4>Cloud GCS</h4>
+                                    <p>It provides powerful platform for managing your drone and gets real-time telemetry data from the drone.</p>
+                                </div>
+                            </div> 
+                        </div> 
+                    </div> <!-- /.row -->
+                </div> <!-- /.our-services-content-wrapper -->
+            </div> <!-- /.container -->
+        </section> <!-- /.our-services -->
+        <!--====== End Our Services Area ======-->
+        <!--====== Start Pricing Area ======-->
+        <section class="pricing-area pt-130 pb-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <div class="section-title mb-75 text-center">
+                            <div class="section-heading-tag">
+                                <span class="single-heading-tag">Our Pricing Plan</span>
+                            </div>
+                            <h2>Choose The Best Package For <br class="d-none d-md-block"> Your Needs </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Single Pricing Table -->
+                    <div class="col-lg-4">
+                        <div class="pricing-table starter-plan wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="pricing-plan-title">
+                                <div class="pricing-table-icon" style="background-image: url(assets/img/pricing/pricing-table-blob.svg);">
+                                    <h5 class="plan-title bg-burning-orange-gradient">Hobbyist</h5>
+                                    <img src="assets/img/pricing/pricing-table-icon.png" alt="pricing plan icon one">
+                                </div>
+                                <br/>
+                                <br/>
+                            </div>
+                            <div class="pricing-plan-features">
+                                <ul>
+                                    <li class="plan-feature">Licensing & Authorisation</li>
+                                    <li class="plan-feature">Airspace Live Updates</li>
+                                    <li class="plan-feature">Single Drone Per User</li>
+                                    <li class="plan-feature">Dynamic Geofencing Map</li>
+                                    <li class="plan-feature">Multi Device Support</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-table-foot">
+                                <div class="plan-select">
+                                    <a href="service-details.html" class="filled-btn bg-burning-orange">Select Plan <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Pricing Table -->
+                    <div class="col-lg-4">
+                        <div class="pricing-table professional-plan wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="pricing-plan-title">
+                                <div class="pricing-table-icon" style="background-image: url(assets/img/pricing/pricing-table-blob.svg);">
+                                    <h5 class="plan-title bg-ocean-blue-gradient">Professional</h5>
+                                    <img src="assets/img/pricing/pricing-table-icon.png" alt="pricing plan icon one">
+                                </div>
+                                <br/>
+                                <br/>
+                            </div>
+                            <div class="pricing-plan-features">
+                                <ul>
+                                    <li class="plan-feature">Everything from Hobbyist</li>
+                                    <li class="plan-feature">Flight Plan Generation</li>
+                                    <li class="plan-feature">Multi Drone Support</li>
+                                    <li class="plan-feature">Cloud GCS</li>
+                                    <li class="plan-feature">3 Press Releases</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-table-foot">
+                                <div class="plan-select">
+                                    <a href="service-details.html" class="filled-btn bg-ocean-blue-gradient">Select Plan <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Pricing Table -->
+                    <div class="col-lg-4">
+                        <div class="pricing-table premium-plan wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="pricing-plan-title">
+                                <div class="pricing-table-icon" style="background-image: url(assets/img/pricing/pricing-table-blob.svg);">
+                                    <h5 class="plan-title bg-magenta-gradient">Enterprise</h5>
+                                    <img src="assets/img/pricing/pricing-table-icon.png" alt="pricing plan icon one">
+                                </div>
+                            </div>
+                            <br/>
+                            <br/>
+                            <div class="pricing-plan-features">
+                                <ul>
+                                    <li class="plan-feature">Everything from Professional</li>
+                                    <li class="plan-feature"></li>
+                                    <li class="plan-feature"></li>
+                                    <li class="plan-feature"></li>
+                                    <li class="plan-feature"></li>
+                                </ul>
+                            </div>
+                            <div class="pricing-table-foot">
+                                <div class="plan-select">
+                                    <a href="service-details.html" class="filled-btn bg-magenta">Contact Us<i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </section> <!-- /.pricing-area -->
+        <!--====== End Pricing Area ======-->
+        <!--====== Start Call to Action Area ======-->
+        <section class="cta-area cta-area-v2" style="background-image: url(assets/img/services/dots-pattern-bg.png);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="cta-content">
+                            <div class="section-title section-title-white text-center">
+                                <div class="section-heading-tag wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                                    <span class="single-heading-tag">Our Network</span>
+                                </div>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Affiliates</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </section>  <!-- /.cta-area -->
+        <!--====== End Call to Action Area ======-->
+        <!--======= Start Brands Slider =======-->
+        <div class="brands-area bg-light-magnolia pt-50 pb-50 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="2500ms">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div class="brands-slider" id="brands-slider-v2">
+                            <div class="brands-item">
+                                <img src="assets/img/brand/brand-6.png" alt="brand one">
+                            </div>
+                            <div class="brands-item">
+                                <img src="assets/img/brand/brand-7.png" alt="brand two">
+                            </div>
+                            <div class="brands-item">
+                                <img src="assets/img/brand/brand-8.png" alt="brand three">
+                            </div>
+                            <div class="brands-item">
+                                <img src="assets/img/brand/brand-9.png" alt="brand four">
+                            </div>
+                            <div class="brands-item">
+                                <img src="assets/img/brand/brand-10.png" alt="brand five">
+                            </div>
+                            <div class="brands-item">
+                                <img src="assets/img/brand/brand-11.png" alt="brand six">
+                            </div>
+                            <div class="brands-item">
+                                <img src="assets/img/brand/brand-8.png" alt="brand seven">
+                            </div>
+                            <div class="brands-item">
+                                <img src="assets/img/brand/brand-7.png" alt="brand eight">
+                            </div>
+                            <div class="brands-item">
+                                <img src="assets/img/brand/brand-9.png" alt="brand nine">
+                            </div>
+                            <div class="brands-item">
+                                <img src="assets/img/brand/brand-11.png" alt="brand ten">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- /.brands-area -->
+        <!--======= End Brands Slider =======-->
+        <!--====== Start Contact Area ======-->
+        <section class="contact-area pt-120 pb-130">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-75">
+                            <h2>Let's Fly Together<br class="d-none d-md-block"></h2>
+                        </div>
+                    </div>
+                </div> <!-- /.row -->
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="contact-box-wrapper">
+                                    <div class="single-contact-box wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">
+                                        <h4>Ready to Work Together For Better Solutions </h4>
+                                        <a href="team.html" class="filled-btn btn-bordered bg-royal-blue">
+                                            Partner with us <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="single-contact-box wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1500ms">
+                                        <h4>Want To Be A Foundation<br class="d-none d-xl-block">Of This <span>Venture?</span></h4>
+                                        <a href="about.html" class="filled-btn btn-bordered bg-royal-blue">
+                                            Invest in AirUTM <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="contact-form-area contact-form-area-v2 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1500ms">
+                            <div class="contact-respond">
+                                <form>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="fullName" placeholder="Your Full Name" name="name" required="">
+                                        <label for="fullName">Name</label>
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" id="yourEmail" placeholder="Email Address" name="email" required="">
+                                        <label for="emailAddress">Email</label>
+                                    </div>
+                                    <div class="input-group">
+                                        <div class="subject-dropdown">
+                                            <select class="nice-select" name="subject">
+                                                <option>Subject You Like</option>
+                                                <option value="knowsomething">About Us</option>
+                                                <option value="sayhello">Say Hello</option>
+                                                <option value="askme">Ask Me</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="input-group form-textarea">
+                                        <textarea class="form-control" id="message" placeholder="Write Message" name="message"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                    <br/>
+                                    <div class="input-group">
+                                        <button type="submit" class="filled-btn">Write To Us<i class="fas fa-arrow-right"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </section> <!-- /.contact-area -->
+        <!--====== End Contact Area ======-->
+        <!--====== Start Simple CTA Area ======-->
+        <section class="simple-cta-area bg-royal-blue" style="background-image: url(assets/img/cta/simple-cta-bg.png);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-10">
+                        <div class="simple-cta-content">
+                            <h4>Wish to be one among Airdonexes?</h4>
+                            <a href="contact.html" class="filled-btn btn-bordered btn-off-white">
+                                Contact Us <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </section> <!-- /.simple-cta-area -->
+        <!--====== End Simple CTA Area ======-->
+        <!--====== Start Footer Area ======-->
+        <footer class="footer-area footer-area-v1" style="background-image: url(assets/img/footer-bg.png);">
+            <div class="container">
+                <div class="footer-area-internal">
+                    <div class="row">
+                        <!-- Single Footer Widget -->
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="single-footer-widget footer-text-widget">
+                                <img src="assets/img/logo.png" width="100" alt="footer logo">
+                                <p>Airdonex is an aviation technology startup dedicated to build solutions for the problems in the airspace.</p>
+                                <!-- <a class="footer-contact-link" href="tel:+01234567899"><i class="fas fa-phone"></i> +012 (345) 678 99</a> -->
+                            </div> 
+                        </div>
+                        <!-- Single Footer Widget -->
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="single-footer-widget">
+                                <h5 class="widget-title">Resources</h5>
+                                <div class="footer-widget-menu">
+                                    <ul>
+                                        <li><a target="_blank" href="https://digitalsky.dgca.gov.in/home">Digital Sky Platform</a></li>
+                                        <li><a target="_blank" href="https://www.civilaviation.gov.in/sites/default/files/Draft_Drones_Rules_14_Jul_2021.pdf">Drone Rules & Regulations</a></li>
+                                        <li><a target="_blank" href="https://www.civilaviation.gov.in/sites/default/files/National-UTM-Policy-Discussion-Draft-30-Nov-2020-updated.pdf">UTM National Policy Draft</a></li>
+                                        <li><a target="_blank" href="https://tropogo.com/india-guide/drone-ecosystem-india">Drone Eco System - India</a></li>
+                                        <li><a target="_blank" href="https://pib.gov.in/PressReleasePage.aspx?PRID=1722683">Approved Green Zones</a></li>
+                                    </ul>
+                                </div>
+                            </div> 
+                        </div>
+                        <!-- Single Footer Widget -->
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="single-footer-widget">
+                                <h5 class="widget-title">Quick Links</h5>
+                                <div class="footer-widget-menu">
+                                    <ul>
+                                        <li><a target="_blank" href="investors.html">Investors</a></li>
+                                        <li><a target="_blank" href="https://www.linkedin.com/company/airdonex">Careers</a></li>
+                                        <li><a target="_blank" href="https://digitalsky.dgca.gov.in/faq">FAQs</a></li>
+                                        <li><a target="_blank" href="https://www.crunchbase.com/organization/airdonex-technologies-private-limited">Crunchbase Profile</a></li>
+                                        <li><a target="_blank" href="https://www.startupindia.gov.in/content/sih/en/profile.Startup.60cf6aaee4b0c264518858cb.html">Startup India Profile</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Footer Widget -->
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="single-footer-widget">
+                                <h5 class="widget-title">Follow On</h5>
+                                <div class="footer-social-links">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer-copyright">
+                                    <p>&copy; 2021 <a href="#">Airdonex Technologies Pvt Ltd</a> All Rights Reserved</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> <!-- /.row -->
+                </div> <!-- /.footer-area-internal -->
+            </div> <!-- /.container -->
+        </footer> <!-- /.footer-area -->
+        <!--====== End Footer Area ======-->
+        <!--======= Scroll To Top =======-->
+        <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+        <!--====== Optional Javascript ======-->
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+        <!--====== Popper JS ======-->
+        <script src="assets/js/popper.min.js"></script>
+        <!--====== Bootstrap JS ======-->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!--====== Slick Slider JS ======-->
+        <script src="assets/js/slick.min.js"></script>
+        <!--====== Wow JS ======-->
+        <script src="assets/js/wow.js"></script>
+        <!--====== Nice Select ======-->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!--====== Counter Up JS ======-->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <!--====== Magnific Popup JS ======-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--====== Waypoint JS ======-->
+        <script src="assets/js/jquery.waypoints.js"></script>
+        <!--====== Main Script ======-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
