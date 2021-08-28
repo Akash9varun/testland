@@ -1,5 +1,4 @@
 # testland
- testutm
 Docker Commands :
 
 Docker build . -t httpd:utm
